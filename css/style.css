@@ -1,0 +1,376 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.bg {
+    background-image: url("../img/AngelaChris-prewedding-HD-0291.jpg");
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-bawah {
+    background-image: url("../img/AngelaChris-prewedding-HD-0291.jpg");
+    height: 450px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    display: block;
+    margin: auto;
+}
+
+.btn:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+.bg h1 {
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    padding-right: 60px;
+    transform: rotate(-10deg);
+    font-size: 75px;
+    font-family: "Header";
+}
+
+.bg-bawah h1 {
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    padding-right: 60px;
+    transform: rotate(-10deg);
+    font-size: 75px;
+    font-family: "Header";
+}
+
+.bg p {
+    color: white;
+    text-align: center;
+    transform: rotate(-10deg);
+    font-size: 50px;
+    margin-top: -35px;
+}
+
+.bg-bawah p {
+    color: white;
+    text-align: center;
+    transform: rotate(-10deg);
+    font-size: 50px;
+    margin-top: -35px;
+}
+
+.bg hr {
+    width: 250px;
+    margin: auto;
+    border: 1px solid white;
+    opacity: 0.9;
+}
+
+.satu p {
+    font-family: "Utama";
+    font-size: 16px;
+}
+
+.parallax h1 {
+    transform: rotate(-10deg);
+    font-size: 60px;
+}
+
+.dan {
+    font-size: 100px;
+}
+
+.waktu p {
+    text-align: center;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/1.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+  width: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.akad {
+    text-align: center;
+}
+
+.tempat-akad {
+    text-align: center;
+}
+
+.img-qr {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav p {
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+.bg-1 {
+    background-image: url("../img/wp1862844.jpg");
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+.bg-1 h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+bg-1 img {
+    width: 500px;
+    height: 500px;
+}
+
+.bg-1 p {
+    color: white;
+    text-align: justify;
+}
+
+.bg-1 h4 {
+    color: white;
+}
+
+.story {
+    margin: auto;
+}
+
+.img-2 {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid black;
+    display: block;
+    margin: auto;
+}
+
+
+/*Membuat lebar sesuai dengan ukuran lebar class responsive*/
+.img-3 img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/*membuat box-size pada body*/
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    float: left;
+    width: 24.99999%;
+}
+
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    transition: 0.7;
+}
+
+.overlay a {
+    position: absolute;
+    margin-left: 97%;
+    margin-top: 20px;
+    color: white;
+}
+
+.overlay img {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.overlay:target {
+    width: auto;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.bg-2 {
+    background-image: url("../img/wp1862844.jpg");
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+.bg-2 h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.bg-2 p {
+    text-align: center;
+    color: white;
+}
+
+.placeholder::-webkit-input-placeholder{
+    color: #F8F9F9;
+    opacity: 70%;
+}
+ 
+/*support mozilla*/
+.placeholder:-moz-input-placeholder{
+    color: white;
+}
+ 
+/*support internet explorer*/
+.placeholder:-ms-input-placeholder{
+    color: white;
+}
+
+#date {
+    color: white;
+    font-size: 30px;
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+@media only screen and (max-width: 1900px){
+    .responsive {
+        width: 25%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .overlay img {
+        max-width: 800px;
+        max-height: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    iframe {
+        align-items: center;
+        width: 400px;
+        height: 300px;
+    }
+}
+/*berfungsi untuk mengubah style class responsive pada lebar maksimum 700px*/
+@media only screen and (max-width: 992px){
+    .responsive {
+        width: 25%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .overlay img {
+        max-width: 800px;
+        max-height: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    iframe {
+        align-items: center;
+        width: auto;
+    }
+}
+/*berfungsi untuk mengubah style class responsive pada lebar maksimum 700px*/
+@media only screen and (max-width: 768px){
+    .responsive {
+        width: 33.33333%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    iframe {
+        align-items: center;
+        width: 330px;
+        height: 300px;
+    }
+    
+}
+/*berfungsi untuk mengubah style class responsive pada lebar maksimum 500px*/
+@media only screen and (max-width: 600px){
+    .responsive {
+        width: 33.33333%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    iframe {
+        align-items: center;
+        width: 330px;
+        height: 300px;
+    }
+}
+/*clearfix adalah cara praktis yang digunakan untuk clear element yang sebelumnya mengalami float*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { 
+    img {
+        align-items: center;
+        width: 576px;
+        height: auto;
+    }
+ } */
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
